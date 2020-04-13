@@ -21,3 +21,19 @@ end
 
 end
 
+
+def reverse_upcase_noLTA(i)
+i.to_s
+i.delete!("[Ttal]")
+puts i
+i = i.upcase.reverse
+return i
+end
+
+
+def array_42(list)
+
+return list.include? 42
+end
+
+
